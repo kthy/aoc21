@@ -29,7 +29,7 @@ if __name__ == "__main__":
     last_depth = INFINITY
     sliding_window = SlidingWindow(INFINITY, INFINITY, INFINITY)
     last_sliding_depth = INFINITY
-    with open("./input/depths.txt") as depths:
+    with open("./input.txt") as depths:
         for line in depths.readlines():
             depth = int(line)
             if depth > last_depth:

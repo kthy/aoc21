@@ -39,7 +39,7 @@ fn main() {
     };
     let mut last_sliding_depth = i32::MAX;
 
-    if let Ok(lines) = read_lines("./input/depths.txt") {
+    if let Ok(lines) = read_lines("./input.txt") {
         for line in lines {
             if let Ok(depth_as_str) = line {
                 let depth = depth_as_str.parse::<i32>().unwrap();
